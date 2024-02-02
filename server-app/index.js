@@ -19,7 +19,7 @@ const initializeServer = async () => {
         issuer: process.env.AFFINIDI_ISSUER,
         client_id: process.env.AFFINIDI_CLIENT_ID,
         client_secret: process.env.AFFINIDI_CLIENT_SECRET,
-        redirect_uris: ['http://localhost:3000/auth/callback'], 
+        redirect_uris: ['https://ideal-happiness-4xpp57qw4q9hpwx-3000.app.github.dev/auth/callback'], 
         handleCredential: (credential) => {
             console.log('Received credential:', credential);
         },

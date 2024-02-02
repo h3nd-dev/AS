@@ -42,3 +42,12 @@
     width: 100%;
   }
 }
+/* Add this to your CSS file */
+.CartCount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+} 

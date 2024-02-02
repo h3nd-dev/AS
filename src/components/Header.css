@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: #f5f5f5;
     border-bottom: 1px solid #ddd;
   }
@@ -31,6 +31,8 @@
   .Header .CartIcon {
     margin-left: 20px;
     padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 0px;
   }
 
   .CartIcon img {
@@ -40,7 +42,7 @@
   }
 
   .Header button {
-    padding: 6px 12px; 
+    padding: 10px 12px; 
     font-size: 14px;
     line-height: 1;
     border-radius: 4px; 
@@ -73,4 +75,24 @@
       font-size: 16px;
     }
   }
+  .Avatar img {
+    border-radius: 50%;
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    padding-top: 25px;
+
+ 
+    
+  }
+  .Header .Avatar {
+  
+    padding-top: 16px;
+    padding-bottom: 0px;
+  }
+  .welcome-message {
+    margin-right: 10px; /* Adjust the margin as needed */
+    font-weight: bold;
+  }
+ 
+  
   
